@@ -1,0 +1,36 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/Movement.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player/Inventory/Inventory.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Health.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Magic.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/ExperienceBar.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Movement.cs" Line="64" Column="67" />
+      <File FileName="Assets/Scripts/Game/CameraRotation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NPCs/Violent/Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Inventory/Item.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Inventory/Weapon.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Inventory/Armor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Inventory/Potion.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Character.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Menu/MainMenu.cs" Line="1" Column="1" />
+      <File FileName="../../Block Ninja/Assets/SAVELOAD_Example/SaveLoad.cs" Line="1" Column="1" />
+      <File FileName="../../Block Ninja/Assets/SAVELOAD_Example/Gameplay.cs" Line="1" Column="1" />
+      <File FileName="../../Block Ninja/Assets/SAVELOAD_Example/Game.cs" Line="1" Column="1" />
+      <File FileName="../../Block Ninja/Assets/SAVELOAD_Example/Character.cs" Line="1" Column="1" />
+      <File FileName="../../Block Ninja/Assets/SAVELOAD_Example/MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Game/Game.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Game/SaveLoad.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

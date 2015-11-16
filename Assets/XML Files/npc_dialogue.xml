@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!-- Initial NPC Dialogue -->
+        <dialogue id="0">
+            
+            <text>Hail Traveler! This is the humble town of Surthun</text> 
+            <text>I'm Gwindol, the Mayor. You are welcome to stay if you'd like.</text>
+            
+            <options>
+                <option name="optionOne" type="dialogue" action="1">Hail, Gwindol. Could you tell me about this village?</option>
+                <option name="optionTwo" type="dialogue" action="2">Looks nice. I'd like to know more.</option>
+                <option name="optionThree" type="dialogue" action="3">What a dump. You have some cleaning up to do.</option>
+                
+                <!-- Close dialogue. -->
+                <option action="close">Goodbye.</option>
+            </options>
+            
+        </dialogue>
+        
+        <!-- Dialogue for selecting Initial Option 1 -->
+        <dialogue id="1">
+            
+            <text>Sure, I'm glad you show interest.</text>
+            <text>But to be honest. There's not much going on at the moment.</text>
+            <text>The only thing worth mentioning are the outlaws tormenting our homes.</text>
+            
+            <options>
+                <option name="optionOne" type="quest" action="1">I'll kill the outlaws for you.</option>
+                <option name="optionTwo" type="dialogue" action="1.1">Sure sounds like a problem for you.</option>
+                <option name="optionThree" type="dialogue" action="1.2">What does that have to do with me?</option>
+
+                <!-- Close dialogue. -->
+                <option name="optionClose" action="close">Goodbye.</option>
+            </options>
+            
+        </dialogue>
+        
+        <!-- Dialogue for selecting Initial Option 2 -->
+        <dialogue id="2">
+            
+            <text>Uhm, okay. Well, nothing is happening at the moment, but perhaps you could be of service with something? We'll pay you...</text>
+            
+            <options>
+                <option name="optionOne" type="dialogue" action="2.1">Tell me what the problem is.</option>
+                <option name="optionTwo" type="dialogue" action="2.2">Payment? I'm always up for some gold.</option>
+                <option name="optionThree" type="dialogue" action="2.3">I changed my mind I don't care.</option>
+
+                <!-- Close dialogue. -->
+                <option name="optionClose" action="close">Goodbye.</option>
+            </options>
+        </dialogue>
+        
+        <!-- Dialogue for selecting Initial Option 3 -->
+        <dialogue id="3">
+            
+            <text>Sadly, that is true.</text>
+            <text>But it is not our fault.</text>
+            <text>It's the outlaws! There base of operations is just out of town.</text>
+            
+            <options>
+                <option name="optionOne" type="quest" action="1">Tell you what. I'll help you out for the right amount of gold.</option>
+                <option name="optionTwo" type="dialogue" action="3.1">Screw that I'm out!</option>
+                
+                <!-- Close dialogue. -->
+                <option name="optionClose" action="close">Goodbye.</option>
+            </options>
+        </dialogue>
+        
+        <!-- Start of the Quest/Quest Dialogue -->
+        <quest id="1">
+            <text>Truly? You'll help us? You have our eternal gratitude.</text>
+            
+            <!-- Accept quest to kill the bandits. -->
+            <options>
+                <!-- Accept Quest -->
+                <option>I will help you.</option>
+                
+                <!-- Reject Quest -->
+                <option>No, You'll have to deal with it yourself.</option>
+            </options>
+        </quest>
+        
+        
